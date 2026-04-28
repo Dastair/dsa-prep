@@ -2,29 +2,29 @@
 
 You are performing a dream — a reflective pass over the memory files for this DSA prep project. Synthesize what you've learned recently into durable, well-organized memories so that future sessions can orient quickly.
 
-Memory directory: `/Users/vicky/.claude/projects/-Users-vicky-Java-Projects-dsa-prep/memory/`
+Memory directory: `C:\Users\nesmc\.claude\projects\c--Users-nesmc-OneDrive-Desktop-DSAPractice\memory\`
 
 This memory tracks: the user's DSA problem-solving progress (solved problems, SRS stages, pattern tags), recurring mistakes, preferences for how coaching sessions are run, and the project structure.
 
-Session transcripts: `/Users/vicky/.claude/projects/-Users-vicky-Java-Projects-dsa-prep/` (large JSONL files — grep narrowly, don't read whole files)
+Session transcripts: `C:\Users\nesmc\.claude\projects\c--Users-nesmc-OneDrive-Desktop-DSAPractice\` (large JSONL files — grep narrowly, don't read whole files)
 
 ---
 
 ## Phase 1 — Orient
 
 - List the memory directory to see what files already exist
-- Read `/Users/vicky/.claude/projects/-Users-vicky-Java-Projects-dsa-prep/memory/MEMORY.md` to understand the current index
+- Read `C:\Users\nesmc\.claude\projects\c--Users-nesmc-OneDrive-Desktop-DSAPractice\memory\MEMORY.md` to understand the current index
 - Skim existing topic memory files to improve them rather than create duplicates
 
 ## Phase 2 — Gather recent signal
 
 Look for new information worth persisting. Sources in rough priority order:
 
-1. **Solved problem notes** (`/Users/vicky/Java_Projects/dsa-prep/notes/`) — scan for any newly added `*-solved.md` files that aren't yet reflected in MEMORY.md's solved problems table
-2. **REVIEW.md** (`/Users/vicky/Java_Projects/dsa-prep/notes/REVIEW.md`) — check for stage changes, new problems, or rating patterns not captured in memory
+1. **Solved problem notes** (`notes/`) — scan for any newly added `*-solved.md` files that aren't yet reflected in MEMORY.md's solved problems table
+2. **REVIEW.md** (`notes/REVIEW.md`) — check for stage changes, new problems, or rating patterns not captured in memory
 3. **Existing memories that drifted** — facts that contradict what you see in the notes now
 4. **Transcript search** — if you need specific context (e.g., a mistake pattern or a coaching preference the user expressed), grep the JSONL transcripts narrowly:
-   `grep -rn "<narrow term>" /Users/vicky/.claude/projects/-Users-vicky-Java-Projects-dsa-prep/ --include="*.jsonl" | tail -50`
+   `grep -rn "<narrow term>" /c/Users/nesmc/.claude/projects/c--Users-nesmc-OneDrive-Desktop-DSAPractice/ --include="*.jsonl" | tail -50`
 
 Don't exhaustively read transcripts. Look only for things you already suspect matter.
 
@@ -45,13 +45,13 @@ Focus on:
 - Deleting or correcting contradicted facts — if a problem's stage has advanced, update it
 
 Do NOT save:
-- Code patterns or Java implementation details — those live in the notes files
+- Code patterns or Python implementation details — those live in the notes files
 - Individual problem solutions — those are in `notes/*-solved.md`
 - Ephemeral session state or in-progress work
 
 ## Phase 4 — Prune and index
 
-Update `/Users/vicky/.claude/projects/-Users-vicky-Java-Projects-dsa-prep/memory/MEMORY.md` so it stays under 200 lines. It's an **index**, not a dump — link to memory files with one-line descriptions. Never write memory content directly into it.
+Update `C:\Users\nesmc\.claude\projects\c--Users-nesmc-OneDrive-Desktop-DSAPractice\memory\MEMORY.md` so it stays under 200 lines. It's an **index**, not a dump — link to memory files with one-line descriptions. Never write memory content directly into it.
 
 - Remove pointers to memories that are stale, wrong, or superseded
 - Demote verbose entries: keep the gist in the index, move detail into topic files

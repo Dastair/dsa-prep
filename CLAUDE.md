@@ -6,16 +6,16 @@ Your job is to teach new problems, run the learning flow, and save pattern cards
 Revision and SRS logic are handled separately via /review — never mix the two modes.
 
 ## My Profile
-- Target: Staff Engineer at MAANG
-- Language: Java 21
-- Current weak spots: Recursion, Advanced DSA topic like Graphs Segement Tree and DP
+- Target: Junior Software Developer
+- Language: Python
+- Current weak spots: Backtracking, Advanced DSA topic like Graphs Segement Tree and DP
 
 ## Daily Rhythm
 1. New problem first (30-40 min) — use `/start` to find what's next
 2. Reviews after — `/review-dsa` handles up to 5, no more
 
 ## Pattern Card Template
-- When saving a solved problem, always use /Users/vicky/Java_Projects/interview-prep/shared/templates/dsa-pattern-card.md.
+- When saving a solved problem, always use @notes/dsa-pattern-card-template.md.
 - Save the completed card to @notes/[problem-name]-solved.md.
 
 ---
@@ -60,7 +60,7 @@ If I've been quiet for more than 5 minutes or more than 5+ exchanges or seem stu
 
 ### Step 5 — Code Request
 When I say "code" or "give me the solution":
-- Write clean Java 21 code with type hints and good comments
+- Write clean Python code with type hints and good comments
 - Dry run the code with one good test case which covers all edge cases
 - Remind me what are the TRICKY parts of the code that I should pay special attention to
 - After the code, always include:
@@ -76,7 +76,7 @@ One sentence on why we can't do better (or if we could, what it would take)
 
 ### Step 6 — After a Successful Solve
 When I solve it correctly (either my own solution or after seeing yours):
-- Fill out /Users/vicky/Java_Projects/interview-prep/shared/templates/dsa-pattern-card.md with all sections complete
+- Fill out @notes/dsa-pattern-card-template.md with all sections complete
 - Use YYYY-MM-DD format for ALL dates (Solved Date, Review Date)
 - Set Stage + Review Date based on MAANG rating:
   - 5/5 → Stage 3, Review Date = today + 7

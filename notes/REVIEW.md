@@ -9,3 +9,4 @@
 
 | File | Problem | Tag | Stage | Review Date | Last Rating | Review Count | Graduated |
 |---|---|---|---|---|---|---|---|
+| notes/house-robber-solved.md | House Robber | dp | 2 | 2026-05-01 | — | 0 | No |
